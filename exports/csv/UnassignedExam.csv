@@ -1,0 +1,9 @@
+﻿unassigned_id,exam_id,reason_code,detail,created_at
+UNA-0000001,EXAM-2026-000300,INSUFFICIENT_CAPACITY,Required duration: 210 minutes; required seats: 450; accessible room required: True.,2026-10-28 12:16:57
+UNA-0000002,EXAM-2026-000169,DURATION_EXCEEDS_SLOT,Required duration: 270 minutes; required seats: 91; accessible room required: False.,2026-10-28 12:16:57
+UNA-0000003,EXAM-2026-000074,DURATION_EXCEEDS_SLOT,Required duration: 270 minutes; required seats: 87; accessible room required: True.,2026-10-28 12:16:57
+UNA-0000004,EXAM-2026-000172,DURATION_EXCEEDS_SLOT,Required duration: 270 minutes; required seats: 74; accessible room required: False.,2026-10-28 12:16:57
+UNA-0000005,EXAM-2026-000210,DURATION_EXCEEDS_SLOT,Required duration: 270 minutes; required seats: 75; accessible room required: True.,2026-10-28 12:16:57
+UNA-0000006,EXAM-2026-000177,DURATION_EXCEEDS_SLOT,Required duration: 270 minutes; required seats: 73; accessible room required: True.,2026-10-28 12:16:57
+UNA-0000007,EXAM-2026-000093,DURATION_EXCEEDS_SLOT,Required duration: 270 minutes; required seats: 72; accessible room required: True.,2026-10-28 12:16:57
+UNA-0000008,EXAM-2026-000175,DURATION_EXCEEDS_SLOT,Required duration: 270 minutes; required seats: 72; accessible room required: True.,2026-10-28 12:16:57

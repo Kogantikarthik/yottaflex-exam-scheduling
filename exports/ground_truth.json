@@ -1,0 +1,57 @@
+[
+  {
+    "test_id": "TEST-001",
+    "issue_type": "STUDENT_OVERLAPPING_EXAMS",
+    "exam_id": "EXAM-2026-000009",
+    "exam_id_2": "EXAM-2026-000300",
+    "room_id": "",
+    "invigilator_id": "",
+    "slot_id": "",
+    "expected_result": "REJECT_CONFLICTING_SLOT",
+    "description": "Place both exams that share students in the same slot."
+  },
+  {
+    "test_id": "TEST-002",
+    "issue_type": "ROOM_CAPACITY_EXCEEDED",
+    "exam_id": "EXAM-2026-000001",
+    "exam_id_2": "",
+    "room_id": "ROOM-000006",
+    "invigilator_id": "",
+    "slot_id": "",
+    "expected_result": "REJECT_ROOM",
+    "description": "Assign the exam to a room smaller than its student count."
+  },
+  {
+    "test_id": "TEST-003",
+    "issue_type": "INVIGILATOR_DOUBLE_BOOKED",
+    "exam_id": "",
+    "exam_id_2": "",
+    "room_id": "",
+    "invigilator_id": "INV-000001",
+    "slot_id": "SLOT-000001",
+    "expected_result": "REJECT_DOUBLE_BOOKING",
+    "description": "Give the same invigilator two exams in the same slot."
+  },
+  {
+    "test_id": "TEST-004",
+    "issue_type": "ACCOMMODATION_IGNORED",
+    "exam_id": "EXAM-2026-000007",
+    "exam_id_2": "",
+    "room_id": "ROOM-000003",
+    "invigilator_id": "",
+    "slot_id": "",
+    "expected_result": "REJECT_ASSIGNMENT",
+    "description": "Assign an exam requiring accessibility to a non-accessible room."
+  },
+  {
+    "test_id": "TEST-005",
+    "issue_type": "EXAM_OUTSIDE_ROOM_AVAILABILITY",
+    "exam_id": "EXAM-2026-000001",
+    "exam_id_2": "",
+    "room_id": "ROOM-000001",
+    "invigilator_id": "",
+    "slot_id": "SLOT-000014",
+    "expected_result": "REJECT_CLOSED_ROOM",
+    "description": "Assign an exam to a room during an unavailable slot."
+  }
+]

@@ -1,0 +1,23 @@
+YOTTAFLEX SUBMISSION CHECKLIST
+
+Before pushing:
+[ ] Review `git status --short`; inspect every modified/untracked file.
+[ ] Keep source code, schema, requirements, tests, README, AI_PROMPTS.txt, intended database, validation report, data dictionary/ground truth, and useful export evidence.
+[ ] Exclude .venv, Python caches, temporary databases, duplicate `gen/` database, local debug scripts, mystery files, credentials, and unrelated data.
+[ ] Confirm the intended database file has the expected table counts and 292 active assignments / 8 unscheduled exams.
+[ ] Confirm the database selected by app.py is the one being validated.
+[ ] Run `python -m unittest discover -s tests -v`.
+[ ] Run `python validator.py` and inspect validation_report.json.
+[ ] Verify the five negative scenarios are tested by the actual rules.
+[ ] Run export verification and reproducibility checks, if those are included in the submission.
+[ ] Inspect the final staged file list using `git diff --cached --name-status` before committing.
+[ ] Confirm no secrets or personal data are staged.
+
+After pushing:
+[ ] Confirm the new GitHub repository is public.
+[ ] Confirm README setup commands match the actual code.
+[ ] Create a separate Streamlit deployment from the new repository.
+[ ] Verify the live app's database, counts, tabs, and validation status.
+[ ] Add the new deployment URL to README.
+[ ] Re-test the exact final commit.
+[ ] Only then submit the repository URL to the recruitment portal.

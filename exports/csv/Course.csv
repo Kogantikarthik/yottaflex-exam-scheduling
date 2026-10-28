@@ -1,0 +1,301 @@
+﻿course_id,course_name,department,status
+CRS-000001,Synthetic Course 001,Computer Science,ACTIVE
+CRS-000002,Synthetic Course 002,Mathematics,ACTIVE
+CRS-000003,Synthetic Course 003,Physics,ACTIVE
+CRS-000004,Synthetic Course 004,Electronics,ACTIVE
+CRS-000005,Synthetic Course 005,Management,ACTIVE
+CRS-000006,Synthetic Course 006,Computer Science,ACTIVE
+CRS-000007,Synthetic Course 007,Mathematics,ACTIVE
+CRS-000008,Synthetic Course 008,Physics,ACTIVE
+CRS-000009,Synthetic Course 009,Electronics,ACTIVE
+CRS-000010,Synthetic Course 010,Management,ACTIVE
+CRS-000011,Synthetic Course 011,Computer Science,ACTIVE
+CRS-000012,Synthetic Course 012,Mathematics,ACTIVE
+CRS-000013,Synthetic Course 013,Physics,ACTIVE
+CRS-000014,Synthetic Course 014,Electronics,ACTIVE
+CRS-000015,Synthetic Course 015,Management,ACTIVE
+CRS-000016,Synthetic Course 016,Computer Science,ACTIVE
+CRS-000017,Synthetic Course 017,Mathematics,ACTIVE
+CRS-000018,Synthetic Course 018,Physics,ACTIVE
+CRS-000019,Synthetic Course 019,Electronics,ACTIVE
+CRS-000020,Synthetic Course 020,Management,ACTIVE
+CRS-000021,Synthetic Course 021,Computer Science,ACTIVE
+CRS-000022,Synthetic Course 022,Mathematics,ACTIVE
+CRS-000023,Synthetic Course 023,Physics,ACTIVE
+CRS-000024,Synthetic Course 024,Electronics,ACTIVE
+CRS-000025,Synthetic Course 025,Management,ACTIVE
+CRS-000026,Synthetic Course 026,Computer Science,ACTIVE
+CRS-000027,Synthetic Course 027,Mathematics,ACTIVE
+CRS-000028,Synthetic Course 028,Physics,ACTIVE
+CRS-000029,Synthetic Course 029,Electronics,ACTIVE
+CRS-000030,Synthetic Course 030,Management,ACTIVE
+CRS-000031,Synthetic Course 031,Computer Science,ACTIVE
+CRS-000032,Synthetic Course 032,Mathematics,ACTIVE
+CRS-000033,Synthetic Course 033,Physics,ACTIVE
+CRS-000034,Synthetic Course 034,Electronics,ACTIVE
+CRS-000035,Synthetic Course 035,Management,ACTIVE
+CRS-000036,Synthetic Course 036,Computer Science,ACTIVE
+CRS-000037,Synthetic Course 037,Mathematics,ACTIVE
+CRS-000038,Synthetic Course 038,Physics,ACTIVE
+CRS-000039,Synthetic Course 039,Electronics,ACTIVE
+CRS-000040,Synthetic Course 040,Management,ACTIVE
+CRS-000041,Synthetic Course 041,Computer Science,ACTIVE
+CRS-000042,Synthetic Course 042,Mathematics,ACTIVE
+CRS-000043,Synthetic Course 043,Physics,ACTIVE
+CRS-000044,Synthetic Course 044,Electronics,ACTIVE
+CRS-000045,Synthetic Course 045,Management,ACTIVE
+CRS-000046,Synthetic Course 046,Computer Science,ACTIVE
+CRS-000047,Synthetic Course 047,Mathematics,ACTIVE
+CRS-000048,Synthetic Course 048,Physics,ACTIVE
+CRS-000049,Synthetic Course 049,Electronics,ACTIVE
+CRS-000050,Synthetic Course 050,Management,ACTIVE
+CRS-000051,Synthetic Course 051,Computer Science,ACTIVE
+CRS-000052,Synthetic Course 052,Mathematics,ACTIVE
+CRS-000053,Synthetic Course 053,Physics,ACTIVE
+CRS-000054,Synthetic Course 054,Electronics,ACTIVE
+CRS-000055,Synthetic Course 055,Management,ACTIVE
+CRS-000056,Synthetic Course 056,Computer Science,ACTIVE
+CRS-000057,Synthetic Course 057,Mathematics,ACTIVE
+CRS-000058,Synthetic Course 058,Physics,ACTIVE
+CRS-000059,Synthetic Course 059,Electronics,ACTIVE
+CRS-000060,Synthetic Course 060,Management,ACTIVE
+CRS-000061,Synthetic Course 061,Computer Science,ACTIVE
+CRS-000062,Synthetic Course 062,Mathematics,ACTIVE
+CRS-000063,Synthetic Course 063,Physics,ACTIVE
+CRS-000064,Synthetic Course 064,Electronics,ACTIVE
+CRS-000065,Synthetic Course 065,Management,ACTIVE
+CRS-000066,Synthetic Course 066,Computer Science,ACTIVE
+CRS-000067,Synthetic Course 067,Mathematics,ACTIVE
+CRS-000068,Synthetic Course 068,Physics,ACTIVE
+CRS-000069,Synthetic Course 069,Electronics,ACTIVE
+CRS-000070,Synthetic Course 070,Management,ACTIVE
+CRS-000071,Synthetic Course 071,Computer Science,ACTIVE
+CRS-000072,Synthetic Course 072,Mathematics,ACTIVE
+CRS-000073,Synthetic Course 073,Physics,ACTIVE
+CRS-000074,Synthetic Course 074,Electronics,ACTIVE
+CRS-000075,Synthetic Course 075,Management,ACTIVE
+CRS-000076,Synthetic Course 076,Computer Science,ACTIVE
+CRS-000077,Synthetic Course 077,Mathematics,ACTIVE
+CRS-000078,Synthetic Course 078,Physics,ACTIVE
+CRS-000079,Synthetic Course 079,Electronics,ACTIVE
+CRS-000080,Synthetic Course 080,Management,ACTIVE
+CRS-000081,Synthetic Course 081,Computer Science,ACTIVE
+CRS-000082,Synthetic Course 082,Mathematics,ACTIVE
+CRS-000083,Synthetic Course 083,Physics,ACTIVE
+CRS-000084,Synthetic Course 084,Electronics,ACTIVE
+CRS-000085,Synthetic Course 085,Management,ACTIVE
+CRS-000086,Synthetic Course 086,Computer Science,ACTIVE
+CRS-000087,Synthetic Course 087,Mathematics,ACTIVE
+CRS-000088,Synthetic Course 088,Physics,ACTIVE
+CRS-000089,Synthetic Course 089,Electronics,ACTIVE
+CRS-000090,Synthetic Course 090,Management,ACTIVE
+CRS-000091,Synthetic Course 091,Computer Science,ACTIVE
+CRS-000092,Synthetic Course 092,Mathematics,ACTIVE
+CRS-000093,Synthetic Course 093,Physics,ACTIVE
+CRS-000094,Synthetic Course 094,Electronics,ACTIVE
+CRS-000095,Synthetic Course 095,Management,ACTIVE
+CRS-000096,Synthetic Course 096,Computer Science,ACTIVE
+CRS-000097,Synthetic Course 097,Mathematics,ACTIVE
+CRS-000098,Synthetic Course 098,Physics,ACTIVE
+CRS-000099,Synthetic Course 099,Electronics,ACTIVE
+CRS-000100,Synthetic Course 100,Management,ACTIVE
+CRS-000101,Synthetic Course 101,Computer Science,ACTIVE
+CRS-000102,Synthetic Course 102,Mathematics,ACTIVE
+CRS-000103,Synthetic Course 103,Physics,ACTIVE
+CRS-000104,Synthetic Course 104,Electronics,ACTIVE
+CRS-000105,Synthetic Course 105,Management,ACTIVE
+CRS-000106,Synthetic Course 106,Computer Science,ACTIVE
+CRS-000107,Synthetic Course 107,Mathematics,ACTIVE
+CRS-000108,Synthetic Course 108,Physics,ACTIVE
+CRS-000109,Synthetic Course 109,Electronics,ACTIVE
+CRS-000110,Synthetic Course 110,Management,ACTIVE
+CRS-000111,Synthetic Course 111,Computer Science,ACTIVE
+CRS-000112,Synthetic Course 112,Mathematics,ACTIVE
+CRS-000113,Synthetic Course 113,Physics,ACTIVE
+CRS-000114,Synthetic Course 114,Electronics,ACTIVE
+CRS-000115,Synthetic Course 115,Management,ACTIVE
+CRS-000116,Synthetic Course 116,Computer Science,ACTIVE
+CRS-000117,Synthetic Course 117,Mathematics,ACTIVE
+CRS-000118,Synthetic Course 118,Physics,ACTIVE
+CRS-000119,Synthetic Course 119,Electronics,ACTIVE
+CRS-000120,Synthetic Course 120,Management,ACTIVE
+CRS-000121,Synthetic Course 121,Computer Science,ACTIVE
+CRS-000122,Synthetic Course 122,Mathematics,ACTIVE
+CRS-000123,Synthetic Course 123,Physics,ACTIVE
+CRS-000124,Synthetic Course 124,Electronics,ACTIVE
+CRS-000125,Synthetic Course 125,Management,ACTIVE
+CRS-000126,Synthetic Course 126,Computer Science,ACTIVE
+CRS-000127,Synthetic Course 127,Mathematics,ACTIVE
+CRS-000128,Synthetic Course 128,Physics,ACTIVE
+CRS-000129,Synthetic Course 129,Electronics,ACTIVE
+CRS-000130,Synthetic Course 130,Management,ACTIVE
+CRS-000131,Synthetic Course 131,Computer Science,ACTIVE
+CRS-000132,Synthetic Course 132,Mathematics,ACTIVE
+CRS-000133,Synthetic Course 133,Physics,ACTIVE
+CRS-000134,Synthetic Course 134,Electronics,ACTIVE
+CRS-000135,Synthetic Course 135,Management,ACTIVE
+CRS-000136,Synthetic Course 136,Computer Science,ACTIVE
+CRS-000137,Synthetic Course 137,Mathematics,ACTIVE
+CRS-000138,Synthetic Course 138,Physics,ACTIVE
+CRS-000139,Synthetic Course 139,Electronics,ACTIVE
+CRS-000140,Synthetic Course 140,Management,ACTIVE
+CRS-000141,Synthetic Course 141,Computer Science,ACTIVE
+CRS-000142,Synthetic Course 142,Mathematics,ACTIVE
+CRS-000143,Synthetic Course 143,Physics,ACTIVE
+CRS-000144,Synthetic Course 144,Electronics,ACTIVE
+CRS-000145,Synthetic Course 145,Management,ACTIVE
+CRS-000146,Synthetic Course 146,Computer Science,ACTIVE
+CRS-000147,Synthetic Course 147,Mathematics,ACTIVE
+CRS-000148,Synthetic Course 148,Physics,ACTIVE
+CRS-000149,Synthetic Course 149,Electronics,ACTIVE
+CRS-000150,Synthetic Course 150,Management,ACTIVE
+CRS-000151,Synthetic Course 151,Computer Science,ACTIVE
+CRS-000152,Synthetic Course 152,Mathematics,ACTIVE
+CRS-000153,Synthetic Course 153,Physics,ACTIVE
+CRS-000154,Synthetic Course 154,Electronics,ACTIVE
+CRS-000155,Synthetic Course 155,Management,ACTIVE
+CRS-000156,Synthetic Course 156,Computer Science,ACTIVE
+CRS-000157,Synthetic Course 157,Mathematics,ACTIVE
+CRS-000158,Synthetic Course 158,Physics,ACTIVE
+CRS-000159,Synthetic Course 159,Electronics,ACTIVE
+CRS-000160,Synthetic Course 160,Management,ACTIVE
+CRS-000161,Synthetic Course 161,Computer Science,ACTIVE
+CRS-000162,Synthetic Course 162,Mathematics,ACTIVE
+CRS-000163,Synthetic Course 163,Physics,ACTIVE
+CRS-000164,Synthetic Course 164,Electronics,ACTIVE
+CRS-000165,Synthetic Course 165,Management,ACTIVE
+CRS-000166,Synthetic Course 166,Computer Science,ACTIVE
+CRS-000167,Synthetic Course 167,Mathematics,ACTIVE
+CRS-000168,Synthetic Course 168,Physics,ACTIVE
+CRS-000169,Synthetic Course 169,Electronics,ACTIVE
+CRS-000170,Synthetic Course 170,Management,ACTIVE
+CRS-000171,Synthetic Course 171,Computer Science,ACTIVE
+CRS-000172,Synthetic Course 172,Mathematics,ACTIVE
+CRS-000173,Synthetic Course 173,Physics,ACTIVE
+CRS-000174,Synthetic Course 174,Electronics,ACTIVE
+CRS-000175,Synthetic Course 175,Management,ACTIVE
+CRS-000176,Synthetic Course 176,Computer Science,ACTIVE
+CRS-000177,Synthetic Course 177,Mathematics,ACTIVE
+CRS-000178,Synthetic Course 178,Physics,ACTIVE
+CRS-000179,Synthetic Course 179,Electronics,ACTIVE
+CRS-000180,Synthetic Course 180,Management,ACTIVE
+CRS-000181,Synthetic Course 181,Computer Science,ACTIVE
+CRS-000182,Synthetic Course 182,Mathematics,ACTIVE
+CRS-000183,Synthetic Course 183,Physics,ACTIVE
+CRS-000184,Synthetic Course 184,Electronics,ACTIVE
+CRS-000185,Synthetic Course 185,Management,ACTIVE
+CRS-000186,Synthetic Course 186,Computer Science,ACTIVE
+CRS-000187,Synthetic Course 187,Mathematics,ACTIVE
+CRS-000188,Synthetic Course 188,Physics,ACTIVE
+CRS-000189,Synthetic Course 189,Electronics,ACTIVE
+CRS-000190,Synthetic Course 190,Management,ACTIVE
+CRS-000191,Synthetic Course 191,Computer Science,ACTIVE
+CRS-000192,Synthetic Course 192,Mathematics,ACTIVE
+CRS-000193,Synthetic Course 193,Physics,ACTIVE
+CRS-000194,Synthetic Course 194,Electronics,ACTIVE
+CRS-000195,Synthetic Course 195,Management,ACTIVE
+CRS-000196,Synthetic Course 196,Computer Science,ACTIVE
+CRS-000197,Synthetic Course 197,Mathematics,ACTIVE
+CRS-000198,Synthetic Course 198,Physics,ACTIVE
+CRS-000199,Synthetic Course 199,Electronics,ACTIVE
+CRS-000200,Synthetic Course 200,Management,ACTIVE
+CRS-000201,Synthetic Course 201,Computer Science,ACTIVE
+CRS-000202,Synthetic Course 202,Mathematics,ACTIVE
+CRS-000203,Synthetic Course 203,Physics,ACTIVE
+CRS-000204,Synthetic Course 204,Electronics,ACTIVE
+CRS-000205,Synthetic Course 205,Management,ACTIVE
+CRS-000206,Synthetic Course 206,Computer Science,ACTIVE
+CRS-000207,Synthetic Course 207,Mathematics,ACTIVE
+CRS-000208,Synthetic Course 208,Physics,ACTIVE
+CRS-000209,Synthetic Course 209,Electronics,ACTIVE
+CRS-000210,Synthetic Course 210,Management,ACTIVE
+CRS-000211,Synthetic Course 211,Computer Science,ACTIVE
+CRS-000212,Synthetic Course 212,Mathematics,ACTIVE
+CRS-000213,Synthetic Course 213,Physics,ACTIVE
+CRS-000214,Synthetic Course 214,Electronics,ACTIVE
+CRS-000215,Synthetic Course 215,Management,ACTIVE
+CRS-000216,Synthetic Course 216,Computer Science,ACTIVE
+CRS-000217,Synthetic Course 217,Mathematics,ACTIVE
+CRS-000218,Synthetic Course 218,Physics,ACTIVE
+CRS-000219,Synthetic Course 219,Electronics,ACTIVE
+CRS-000220,Synthetic Course 220,Management,ACTIVE
+CRS-000221,Synthetic Course 221,Computer Science,ACTIVE
+CRS-000222,Synthetic Course 222,Mathematics,ACTIVE
+CRS-000223,Synthetic Course 223,Physics,ACTIVE
+CRS-000224,Synthetic Course 224,Electronics,ACTIVE
+CRS-000225,Synthetic Course 225,Management,ACTIVE
+CRS-000226,Synthetic Course 226,Computer Science,ACTIVE
+CRS-000227,Synthetic Course 227,Mathematics,ACTIVE
+CRS-000228,Synthetic Course 228,Physics,ACTIVE
+CRS-000229,Synthetic Course 229,Electronics,ACTIVE
+CRS-000230,Synthetic Course 230,Management,ACTIVE
+CRS-000231,Synthetic Course 231,Computer Science,ACTIVE
+CRS-000232,Synthetic Course 232,Mathematics,ACTIVE
+CRS-000233,Synthetic Course 233,Physics,ACTIVE
+CRS-000234,Synthetic Course 234,Electronics,ACTIVE
+CRS-000235,Synthetic Course 235,Management,ACTIVE
+CRS-000236,Synthetic Course 236,Computer Science,ACTIVE
+CRS-000237,Synthetic Course 237,Mathematics,ACTIVE
+CRS-000238,Synthetic Course 238,Physics,ACTIVE
+CRS-000239,Synthetic Course 239,Electronics,ACTIVE
+CRS-000240,Synthetic Course 240,Management,ACTIVE
+CRS-000241,Synthetic Course 241,Computer Science,ACTIVE
+CRS-000242,Synthetic Course 242,Mathematics,ACTIVE
+CRS-000243,Synthetic Course 243,Physics,ACTIVE
+CRS-000244,Synthetic Course 244,Electronics,ACTIVE
+CRS-000245,Synthetic Course 245,Management,ACTIVE
+CRS-000246,Synthetic Course 246,Computer Science,ACTIVE
+CRS-000247,Synthetic Course 247,Mathematics,ACTIVE
+CRS-000248,Synthetic Course 248,Physics,ACTIVE
+CRS-000249,Synthetic Course 249,Electronics,ACTIVE
+CRS-000250,Synthetic Course 250,Management,ACTIVE
+CRS-000251,Synthetic Course 251,Computer Science,ACTIVE
+CRS-000252,Synthetic Course 252,Mathematics,ACTIVE
+CRS-000253,Synthetic Course 253,Physics,ACTIVE
+CRS-000254,Synthetic Course 254,Electronics,ACTIVE
+CRS-000255,Synthetic Course 255,Management,ACTIVE
+CRS-000256,Synthetic Course 256,Computer Science,ACTIVE
+CRS-000257,Synthetic Course 257,Mathematics,ACTIVE
+CRS-000258,Synthetic Course 258,Physics,ACTIVE
+CRS-000259,Synthetic Course 259,Electronics,ACTIVE
+CRS-000260,Synthetic Course 260,Management,ACTIVE
+CRS-000261,Synthetic Course 261,Computer Science,ACTIVE
+CRS-000262,Synthetic Course 262,Mathematics,ACTIVE
+CRS-000263,Synthetic Course 263,Physics,ACTIVE
+CRS-000264,Synthetic Course 264,Electronics,ACTIVE
+CRS-000265,Synthetic Course 265,Management,ACTIVE
+CRS-000266,Synthetic Course 266,Computer Science,ACTIVE
+CRS-000267,Synthetic Course 267,Mathematics,ACTIVE
+CRS-000268,Synthetic Course 268,Physics,ACTIVE
+CRS-000269,Synthetic Course 269,Electronics,ACTIVE
+CRS-000270,Synthetic Course 270,Management,ACTIVE
+CRS-000271,Synthetic Course 271,Computer Science,ACTIVE
+CRS-000272,Synthetic Course 272,Mathematics,ACTIVE
+CRS-000273,Synthetic Course 273,Physics,ACTIVE
+CRS-000274,Synthetic Course 274,Electronics,ACTIVE
+CRS-000275,Synthetic Course 275,Management,ACTIVE
+CRS-000276,Synthetic Course 276,Computer Science,ACTIVE
+CRS-000277,Synthetic Course 277,Mathematics,ACTIVE
+CRS-000278,Synthetic Course 278,Physics,ACTIVE
+CRS-000279,Synthetic Course 279,Electronics,ACTIVE
+CRS-000280,Synthetic Course 280,Management,ACTIVE
+CRS-000281,Synthetic Course 281,Computer Science,ACTIVE
+CRS-000282,Synthetic Course 282,Mathematics,ACTIVE
+CRS-000283,Synthetic Course 283,Physics,ACTIVE
+CRS-000284,Synthetic Course 284,Electronics,ACTIVE
+CRS-000285,Synthetic Course 285,Management,ACTIVE
+CRS-000286,Synthetic Course 286,Computer Science,ACTIVE
+CRS-000287,Synthetic Course 287,Mathematics,ACTIVE
+CRS-000288,Synthetic Course 288,Physics,ACTIVE
+CRS-000289,Synthetic Course 289,Electronics,ACTIVE
+CRS-000290,Synthetic Course 290,Management,ACTIVE
+CRS-000291,Synthetic Course 291,Computer Science,ACTIVE
+CRS-000292,Synthetic Course 292,Mathematics,ACTIVE
+CRS-000293,Synthetic Course 293,Physics,ACTIVE
+CRS-000294,Synthetic Course 294,Electronics,ACTIVE
+CRS-000295,Synthetic Course 295,Management,ACTIVE
+CRS-000296,Synthetic Course 296,Computer Science,ACTIVE
+CRS-000297,Synthetic Course 297,Mathematics,ACTIVE
+CRS-000298,Synthetic Course 298,Physics,ACTIVE
+CRS-000299,Synthetic Course 299,Electronics,ACTIVE
+CRS-000300,Synthetic Course 300,Management,ACTIVE

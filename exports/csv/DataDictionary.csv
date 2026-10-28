@@ -1,0 +1,88 @@
+﻿table,field,data_type,required,allowed_values_or_units,unique,validation_rule
+Accommodation,accommodation_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; format ACC-######"
+Accommodation,student_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to Student.student_id
+Accommodation,needs_accessible_room,INTEGER,Yes,"One of: 0,1",See schema constraints,Must satisfy the table's CHECK constraints
+Accommodation,extra_time_minutes,INTEGER,Yes,Minutes (integer),See schema constraints,Must satisfy the table's CHECK constraints
+Accommodation,effective_from,TEXT,Yes,ISO date text (YYYY-MM-DD),See schema constraints,Must satisfy the table's CHECK constraints
+Accommodation,effective_to,TEXT,No,ISO date text (YYYY-MM-DD),See schema constraints,Must satisfy the table's CHECK constraints
+Accommodation,status,TEXT,Yes,"One of: ACTIVE,EXPIRED,REVOKED",See schema constraints,Must satisfy the table's CHECK constraints
+Availability,availability_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; format AVL-######"
+Availability,resource_type,TEXT,Yes,"One of: ROOM,INVIGILATOR",See schema constraints,Must satisfy the table's CHECK constraints
+Availability,resource_id,TEXT,Yes,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+Availability,slot_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to TimeSlot.slot_id
+Availability,start_datetime,TEXT,Yes,ISO date-time text,See schema constraints,Must satisfy the table's CHECK constraints
+Availability,end_datetime,TEXT,Yes,ISO date-time text,See schema constraints,Must satisfy the table's CHECK constraints
+Availability,status,TEXT,Yes,"One of: AVAILABLE,UNAVAILABLE",See schema constraints,Must satisfy the table's CHECK constraints
+Availability,reason_code,TEXT,No,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+ConflictGraph,exam_id_1,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; Foreign key to Exam.exam_id"
+ConflictGraph,exam_id_2,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; Foreign key to Exam.exam_id"
+ConflictGraph,shared_student_count,INTEGER,Yes,Count (integer),See schema constraints,Number of students enrolled in both exams' courses.
+Course,course_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; format CRS-######"
+Course,course_name,TEXT,Yes,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+Course,department,TEXT,Yes,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+Course,status,TEXT,Yes,"One of: ACTIVE,RETIRED",See schema constraints,Must satisfy the table's CHECK constraints
+Enrollment,enrollment_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; format ENR-######"
+Enrollment,student_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to Student.student_id
+Enrollment,course_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to Course.course_id
+Enrollment,enrollment_date,TEXT,Yes,ISO date text (YYYY-MM-DD),See schema constraints,Must satisfy the table's CHECK constraints
+Enrollment,status,TEXT,Yes,"One of: ACTIVE,DROPPED",See schema constraints,Must satisfy the table's CHECK constraints
+Exam,exam_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; format EXAM-2026-######"
+Exam,course_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to Course.course_id
+Exam,exam_name,TEXT,Yes,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+Exam,base_duration_minutes,INTEGER,Yes,Minutes (integer),See schema constraints,Must satisfy the table's CHECK constraints
+Exam,estimated_students,INTEGER,Yes,Count (integer),See schema constraints,Derived from active enrollments for the exam's course.
+Exam,status,TEXT,Yes,"One of: PLANNED,SCHEDULED,UNSCHEDULED,CANCELLED",See schema constraints,Must satisfy the table's CHECK constraints
+ExamRequirement,requirement_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; format REQ-######"
+ExamRequirement,exam_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to Exam.exam_id
+ExamRequirement,extra_time_minutes,INTEGER,Yes,Minutes (integer),See schema constraints,Largest extra time among enrolled students with active accommodations.
+ExamRequirement,required_duration_minutes,INTEGER,Yes,Minutes (integer),See schema constraints,Base duration plus extra time.
+ExamRequirement,accessible_room_required,INTEGER,Yes,"One of: 0,1",See schema constraints,1 if any enrolled student has an active accessible-room accommodation.
+ExamRequirement,projector_required,INTEGER,Yes,"One of: 0,1",See schema constraints,Must satisfy the table's CHECK constraints
+ExamRequirement,required_seats,INTEGER,Yes,Count (integer),See schema constraints,Equals Exam.estimated_students.
+Invigilator,invigilator_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; format INV-######"
+Invigilator,invigilator_name,TEXT,Yes,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+Invigilator,status,TEXT,Yes,"One of: ACTIVE,ON_LEAVE,INACTIVE",See schema constraints,Must satisfy the table's CHECK constraints
+Room,room_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; format ROOM-######"
+Room,room_name,TEXT,Yes,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+Room,accessible,INTEGER,Yes,"One of: 0,1",See schema constraints,Must satisfy the table's CHECK constraints
+Room,has_projector,INTEGER,Yes,"One of: 0,1",See schema constraints,Must satisfy the table's CHECK constraints
+Room,status,TEXT,Yes,"One of: ACTIVE,MAINTENANCE,RETIRED",See schema constraints,Must satisfy the table's CHECK constraints
+RoomCapacity,room_capacity_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; format CAP-######"
+RoomCapacity,room_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to Room.room_id
+RoomCapacity,capacity,INTEGER,Yes,Count (integer),See schema constraints,Must satisfy the table's CHECK constraints
+RoomCapacity,effective_from,TEXT,Yes,ISO date text (YYYY-MM-DD),See schema constraints,Must satisfy the table's CHECK constraints
+RoomCapacity,effective_to,TEXT,No,ISO date text (YYYY-MM-DD),See schema constraints,Must satisfy the table's CHECK constraints
+ScheduleAssignment,assignment_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique"
+ScheduleAssignment,exam_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to Exam.exam_id
+ScheduleAssignment,room_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to Room.room_id
+ScheduleAssignment,slot_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to TimeSlot.slot_id
+ScheduleAssignment,invigilator_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to Invigilator.invigilator_id
+ScheduleAssignment,assigned_seats,INTEGER,Yes,Count (integer),See schema constraints,Must satisfy the table's CHECK constraints
+ScheduleAssignment,status,TEXT,Yes,"One of: ASSIGNED,CANCELLED,SUPERSEDED",See schema constraints,Must satisfy the table's CHECK constraints
+ScheduleAssignment,created_at,TEXT,Yes,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+ScheduleAssignment,reason_code,TEXT,No,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+ScheduleEvent,event_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique"
+ScheduleEvent,assignment_id,TEXT,No,Free text / identifier,See schema constraints,Foreign key to ScheduleAssignment.assignment_id
+ScheduleEvent,exam_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to Exam.exam_id
+ScheduleEvent,event_type,TEXT,Yes,"One of:  ASSIGNED,REASSIGNED,CANCELLED,UNASSIGNED,REJECTED ",See schema constraints,Must satisfy the table's CHECK constraints
+ScheduleEvent,old_status,TEXT,No,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+ScheduleEvent,new_status,TEXT,No,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+ScheduleEvent,event_time,TEXT,Yes,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+ScheduleEvent,reason_code,TEXT,No,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+ScheduleEvent,details_json,TEXT,No,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+Student,student_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; format STU-######"
+Student,student_name,TEXT,Yes,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+Student,status,TEXT,Yes,"One of: ACTIVE,INACTIVE",See schema constraints,Must satisfy the table's CHECK constraints
+TimeSlot,slot_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique; format SLOT-######"
+TimeSlot,start_datetime,TEXT,Yes,ISO date-time text,See schema constraints,Must satisfy the table's CHECK constraints
+TimeSlot,end_datetime,TEXT,Yes,ISO date-time text,See schema constraints,Must satisfy the table's CHECK constraints
+TimeSlot,slot_date,TEXT,Yes,ISO date text (YYYY-MM-DD),See schema constraints,Must satisfy the table's CHECK constraints
+TimeSlot,duration_minutes,INTEGER,Yes,Minutes (integer),See schema constraints,Must satisfy the table's CHECK constraints
+UnassignedExam,unassigned_id,TEXT,Yes,Free text / identifier,Yes,"Primary key, unique"
+UnassignedExam,exam_id,TEXT,Yes,Free text / identifier,See schema constraints,Foreign key to Exam.exam_id
+UnassignedExam,reason_code,TEXT,Yes,"One of:  DURATION_EXCEEDS_SLOT, NO_SUITABLE_ROOM, INSUFFICIENT_CAPACITY, STUDENT_CONFLICT, NO_ROOM_AVAILABLE, NO_INVIGILATOR_AVAILABLE ",See schema constraints,Must satisfy the table's CHECK constraints
+UnassignedExam,detail,TEXT,No,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+UnassignedExam,created_at,TEXT,Yes,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+ValidationReport,check,TEXT,No,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+ValidationReport,passed,TEXT,No,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints
+ValidationReport,details,TEXT,No,Free text / identifier,See schema constraints,Must satisfy the table's CHECK constraints

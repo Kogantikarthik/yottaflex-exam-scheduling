@@ -1,0 +1,10 @@
+{
+  "total_non_cancelled_exams": 300,
+  "active_assignments": 292,
+  "distinct_unscheduled_exams": 8,
+  "errors_count": 0,
+  "warnings_count": 0,
+  "passed": true,
+  "errors": [],
+  "warnings": []
+}

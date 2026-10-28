@@ -1,0 +1,10 @@
+[
+{"unassigned_id": "UNA-0000001", "exam_id": "EXAM-2026-000300", "reason_code": "INSUFFICIENT_CAPACITY", "detail": "Required duration: 210 minutes; required seats: 450; accessible room required: True.", "created_at": "2026-10-28 12:16:57"},
+{"unassigned_id": "UNA-0000002", "exam_id": "EXAM-2026-000169", "reason_code": "DURATION_EXCEEDS_SLOT", "detail": "Required duration: 270 minutes; required seats: 91; accessible room required: False.", "created_at": "2026-10-28 12:16:57"},
+{"unassigned_id": "UNA-0000003", "exam_id": "EXAM-2026-000074", "reason_code": "DURATION_EXCEEDS_SLOT", "detail": "Required duration: 270 minutes; required seats: 87; accessible room required: True.", "created_at": "2026-10-28 12:16:57"},
+{"unassigned_id": "UNA-0000004", "exam_id": "EXAM-2026-000172", "reason_code": "DURATION_EXCEEDS_SLOT", "detail": "Required duration: 270 minutes; required seats: 74; accessible room required: False.", "created_at": "2026-10-28 12:16:57"},
+{"unassigned_id": "UNA-0000005", "exam_id": "EXAM-2026-000210", "reason_code": "DURATION_EXCEEDS_SLOT", "detail": "Required duration: 270 minutes; required seats: 75; accessible room required: True.", "created_at": "2026-10-28 12:16:57"},
+{"unassigned_id": "UNA-0000006", "exam_id": "EXAM-2026-000177", "reason_code": "DURATION_EXCEEDS_SLOT", "detail": "Required duration: 270 minutes; required seats: 73; accessible room required: True.", "created_at": "2026-10-28 12:16:57"},
+{"unassigned_id": "UNA-0000007", "exam_id": "EXAM-2026-000093", "reason_code": "DURATION_EXCEEDS_SLOT", "detail": "Required duration: 270 minutes; required seats: 72; accessible room required: True.", "created_at": "2026-10-28 12:16:57"},
+{"unassigned_id": "UNA-0000008", "exam_id": "EXAM-2026-000175", "reason_code": "DURATION_EXCEEDS_SLOT", "detail": "Required duration: 270 minutes; required seats: 72; accessible room required: True.", "created_at": "2026-10-28 12:16:57"}
+]

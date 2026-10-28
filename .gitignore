@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editor / operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary local databases and SQLite sidecar files
+reproducibility_test.db
+exam_scheduling.db
+*.db-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Temporary local inspection/debugging artifacts
+/gen/
+/compare_dbs.py
+/check_database.py
+/inspect_test_schema.py
+/.txt
+/ter
+/e.py*
+
+# Test/cache artifacts
+.pytest_cache/
+.coverage
+htmlcov/

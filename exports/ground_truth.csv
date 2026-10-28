@@ -1,0 +1,6 @@
+test_id,issue_type,exam_id,exam_id_2,room_id,invigilator_id,slot_id,expected_result,description
+TEST-001,STUDENT_OVERLAPPING_EXAMS,EXAM-2026-000009,EXAM-2026-000300,,,,REJECT_CONFLICTING_SLOT,Place both exams that share students in the same slot.
+TEST-002,ROOM_CAPACITY_EXCEEDED,EXAM-2026-000001,,ROOM-000006,,,REJECT_ROOM,Assign the exam to a room smaller than its student count.
+TEST-003,INVIGILATOR_DOUBLE_BOOKED,,,,INV-000001,SLOT-000001,REJECT_DOUBLE_BOOKING,Give the same invigilator two exams in the same slot.
+TEST-004,ACCOMMODATION_IGNORED,EXAM-2026-000007,,ROOM-000003,,,REJECT_ASSIGNMENT,Assign an exam requiring accessibility to a non-accessible room.
+TEST-005,EXAM_OUTSIDE_ROOM_AVAILABILITY,EXAM-2026-000001,,ROOM-000001,,SLOT-000014,REJECT_CLOSED_ROOM,Assign an exam to a room during an unavailable slot.

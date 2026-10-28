@@ -1,0 +1,343 @@
+{
+  "exported_at_utc": "2026-10-28T12:35:51.236113+00:00",
+  "source_database": "generated_exam_scheduling.db",
+  "source_database_path": "generated_exam_scheduling.db",
+  "integrity_check": "ok",
+  "foreign_key_violations": 0,
+  "table_count": 17,
+  "tables": {
+    "Accommodation": {
+      "row_count": 75,
+      "columns": [
+        "accommodation_id",
+        "student_id",
+        "needs_accessible_room",
+        "extra_time_minutes",
+        "effective_from",
+        "effective_to",
+        "status"
+      ]
+    },
+    "Availability": {
+      "row_count": 27000,
+      "columns": [
+        "availability_id",
+        "resource_type",
+        "resource_id",
+        "slot_id",
+        "start_datetime",
+        "end_datetime",
+        "status",
+        "reason_code"
+      ]
+    },
+    "ConflictGraph": {
+      "row_count": 26078,
+      "columns": [
+        "exam_id_1",
+        "exam_id_2",
+        "shared_student_count"
+      ]
+    },
+    "Course": {
+      "row_count": 300,
+      "columns": [
+        "course_id",
+        "course_name",
+        "department",
+        "status"
+      ]
+    },
+    "DataDictionary": {
+      "row_count": 87,
+      "columns": [
+        "table",
+        "field",
+        "data_type",
+        "required",
+        "allowed_values_or_units",
+        "unique",
+        "validation_rule"
+      ]
+    },
+    "Enrollment": {
+      "row_count": 22523,
+      "columns": [
+        "enrollment_id",
+        "student_id",
+        "course_id",
+        "enrollment_date",
+        "status"
+      ]
+    },
+    "Exam": {
+      "row_count": 300,
+      "columns": [
+        "exam_id",
+        "course_id",
+        "exam_name",
+        "base_duration_minutes",
+        "estimated_students",
+        "status"
+      ]
+    },
+    "ExamRequirement": {
+      "row_count": 300,
+      "columns": [
+        "requirement_id",
+        "exam_id",
+        "extra_time_minutes",
+        "required_duration_minutes",
+        "accessible_room_required",
+        "projector_required",
+        "required_seats"
+      ]
+    },
+    "Invigilator": {
+      "row_count": 200,
+      "columns": [
+        "invigilator_id",
+        "invigilator_name",
+        "status"
+      ]
+    },
+    "Room": {
+      "row_count": 100,
+      "columns": [
+        "room_id",
+        "room_name",
+        "accessible",
+        "has_projector",
+        "status"
+      ]
+    },
+    "RoomCapacity": {
+      "row_count": 100,
+      "columns": [
+        "room_capacity_id",
+        "room_id",
+        "capacity",
+        "effective_from",
+        "effective_to"
+      ]
+    },
+    "ScheduleAssignment": {
+      "row_count": 292,
+      "columns": [
+        "assignment_id",
+        "exam_id",
+        "room_id",
+        "slot_id",
+        "invigilator_id",
+        "assigned_seats",
+        "status",
+        "created_at",
+        "reason_code"
+      ]
+    },
+    "ScheduleEvent": {
+      "row_count": 300,
+      "columns": [
+        "event_id",
+        "assignment_id",
+        "exam_id",
+        "event_type",
+        "old_status",
+        "new_status",
+        "event_time",
+        "reason_code",
+        "details_json"
+      ]
+    },
+    "Student": {
+      "row_count": 5000,
+      "columns": [
+        "student_id",
+        "student_name",
+        "status"
+      ]
+    },
+    "TimeSlot": {
+      "row_count": 90,
+      "columns": [
+        "slot_id",
+        "start_datetime",
+        "end_datetime",
+        "slot_date",
+        "duration_minutes"
+      ]
+    },
+    "UnassignedExam": {
+      "row_count": 8,
+      "columns": [
+        "unassigned_id",
+        "exam_id",
+        "reason_code",
+        "detail",
+        "created_at"
+      ]
+    },
+    "ValidationReport": {
+      "row_count": 0,
+      "columns": [
+        "check",
+        "passed",
+        "details"
+      ]
+    }
+  },
+  "files": {
+    "csv/Accommodation.csv": {
+      "size_bytes": 3633,
+      "sha256": "24877ed3f0843834c905f2319f742d879bac54714202823c17ebc8598cd6a83e"
+    },
+    "json/Accommodation.json": {
+      "size_bytes": 14480,
+      "sha256": "2469c7f4a32e1678ce7eea7c514055deaefdcf210aa7e918e88c5f6e5ac5dc7d"
+    },
+    "csv/Availability.csv": {
+      "size_bytes": 2629255,
+      "sha256": "d7a6005a22389555e6ccc46606a07d98e7462cb18c4869219649678f1abb1a3b"
+    },
+    "json/Availability.json": {
+      "size_bytes": 6649301,
+      "sha256": "59365dc7a392d3d5640433bfd8bbc8fbac072301b67817087aa5e90ec7b669b6"
+    },
+    "csv/ConflictGraph.csv": {
+      "size_bytes": 964944,
+      "sha256": "3967304cb1da5ec2c7e3a0009728ffbc02c69d57e734b5c3717b2f811e01e5fd"
+    },
+    "json/ConflictGraph.json": {
+      "size_bytes": 2503506,
+      "sha256": "bf0c41cf0c9c1e92c1a2d8d72289f9fbbf906a453e25647855d2a9610208f44f"
+    },
+    "csv/Course.csv": {
+      "size_bytes": 15644,
+      "sha256": "67dba39a6b60c53c4536336fb0227ff7b5cd519204746556008c1c75eed51396"
+    },
+    "json/Course.json": {
+      "size_bytes": 35405,
+      "sha256": "f4f059772f54223a5373938f1026c3d01e5f398e40419d30e6c90c7b2b1bb0e2"
+    },
+    "csv/DataDictionary.csv": {
+      "size_bytes": 10571,
+      "sha256": "a1029f165748004060c5579ed792b67fdf6859f8e34aee09596e3de19397d783"
+    },
+    "json/DataDictionary.json": {
+      "size_bytes": 21042,
+      "sha256": "b2e2fece41dd7778d6593a9fedcc06011fbc86a6767bed36faf4aadc32ca955e"
+    },
+    "csv/Enrollment.csv": {
+      "size_bytes": 1171258,
+      "sha256": "e705b6bcac0ceda6aa0d4b42755767e9ee2cad572cc792f889261a6d7bbc00aa"
+    },
+    "json/Enrollment.json": {
+      "size_bytes": 3198271,
+      "sha256": "408735c0cf23122dbf8c400cf3f12462828a5226ed407fb45b03c3b9a04a1d93"
+    },
+    "csv/Exam.csv": {
+      "size_bytes": 19479,
+      "sha256": "09762052025ffce55dfe5c78cf9ea4bd2ee8208ce7744a70084718deb8e4ae69"
+    },
+    "json/Exam.json": {
+      "size_bytes": 52404,
+      "sha256": "ab0320cdc3cc7f1f2709572a56856f0a659d8499e93ec5f051194576a3d57705"
+    },
+    "csv/ExamRequirement.csv": {
+      "size_bytes": 12892,
+      "sha256": "ebfd92ee02fcc58790a9d6afec7efa41ec8b100473bca714ad035c6f34554cc0"
+    },
+    "json/ExamRequirement.json": {
+      "size_bytes": 61066,
+      "sha256": "a0c6375d66fcf4024ba502908fa464a9427ba0bb3979ccfe3921329f6fc9960c"
+    },
+    "csv/Invigilator.csv": {
+      "size_bytes": 9055,
+      "sha256": "cd72dedd5fe79ab02ba2b5f607a85e68e9fd25c2302541c092560a784155be2a"
+    },
+    "json/Invigilator.json": {
+      "size_bytes": 20817,
+      "sha256": "17af3d5aef629a84dc21bb412a6264f100a81eca7efce58f18be142aa42a0bee"
+    },
+    "csv/Room.csv": {
+      "size_bytes": 4374,
+      "sha256": "4f6949ce39cffe25f71428b30e81bc6f6ae90cb50a2b75bbda61410c7e4bc65f"
+    },
+    "json/Room.json": {
+      "size_bytes": 12125,
+      "sha256": "b99beecfa0268951dfe8219a3cba2102560b82b8b0a2398018c307bf7049dcbd"
+    },
+    "csv/RoomCapacity.csv": {
+      "size_bytes": 4021,
+      "sha256": "c1c00b75e744dbdd0745d2ebb775a4092fe9abf61593ae99713f13be89eeebe0"
+    },
+    "json/RoomCapacity.json": {
+      "size_bytes": 13360,
+      "sha256": "0f6717ac23262f96f3beeb5130af78f70a75c93ec46fbda76085ebfd27ed593b"
+    },
+    "csv/ScheduleAssignment.csv": {
+      "size_bytes": 34850,
+      "sha256": "a52d776f6c2de288df3ae511ad8f04c14be5ecc0999d9b89868aba740d2cd951"
+    },
+    "json/ScheduleAssignment.json": {
+      "size_bytes": 79721,
+      "sha256": "af09e204bc879d57d5ed03cc884a5f4abc39cc1f47946e039067f3c7078dbfa5"
+    },
+    "csv/ScheduleEvent.csv": {
+      "size_bytes": 77941,
+      "sha256": "8c2be3e4caf9fe573464c572505f16de065a8c8e6500838c98cf4b3b5491075c"
+    },
+    "json/ScheduleEvent.json": {
+      "size_bytes": 124642,
+      "sha256": "553885242ed37a37e9798b44cf1c325f022cafe1fa6f08e4c2f7a13ec53af092"
+    },
+    "csv/Student.csv": {
+      "size_bytes": 215035,
+      "sha256": "12d304ab51cf4d7592062f67763fadbcac28bd366e255f3c918cf52258859d9e"
+    },
+    "json/Student.json": {
+      "size_bytes": 470005,
+      "sha256": "884daab89899f82200a5e4588946fab1124ae650002eb1381a26cb13d3e7cb2c"
+    },
+    "csv/TimeSlot.csv": {
+      "size_bytes": 6187,
+      "sha256": "780d214237252518e114b62253d7c1d1eb898551b107b64859c925211ddae2bd"
+    },
+    "json/TimeSlot.json": {
+      "size_bytes": 14495,
+      "sha256": "1b65828060560c180fe8ce95b5556be67d990ce376f9d008124e57f4b556b4a7"
+    },
+    "csv/UnassignedExam.csv": {
+      "size_bytes": 1307,
+      "sha256": "6854cda8631a042f83219f4be27cf27b289207a3a0db4bd47f6798e0a6cfc954"
+    },
+    "json/UnassignedExam.json": {
+      "size_bytes": 1928,
+      "sha256": "5b003ebcd7bd0d2632cb5f0abcc4c6973965dead592ac3a84255215bf97a30e9"
+    },
+    "csv/ValidationReport.csv": {
+      "size_bytes": 25,
+      "sha256": "0666c03797329c1fdb5e4846cde0c61740a22ba80f52862f9b541d31edd5e305"
+    },
+    "json/ValidationReport.json": {
+      "size_bytes": 8,
+      "sha256": "285386bcbda5b2338822b19266a2b90c6d87e9da18401f9148c69e469c11bcb7"
+    },
+    "ground_truth.csv": {
+      "size_bytes": 825,
+      "sha256": "bc3fbec0941aa943ee4d215838af88562a44c7d91d85e85d62bd1baba42f716b"
+    },
+    "ground_truth.json": {
+      "size_bytes": 1751,
+      "sha256": "6745b8c2233e9f7dca15ec8bd4e969ad92603fca81277d026f8f8ae98b485473"
+    },
+    "exam_scheduling_export.db": {
+      "size_bytes": 13189120,
+      "sha256": "dbe545b39927e83f0bed656ca980ee893bf9a44686cca19ab2696f58c0bbf28a"
+    },
+    "exam_scheduling_export.sql": {
+      "size_bytes": 8980224,
+      "sha256": "b5b59fe73c79d532835f30ce139c3b30641f2225e43c6c7361e11521793efcd2"
+    }
+  }
+}
