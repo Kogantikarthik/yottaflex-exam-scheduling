@@ -1,3 +1,7 @@
+**Live Demo:** [Exam Scheduling and Room Allocation System](https://yottaflex-exam-scheduling.streamlit.app/)
+
+**Source Code:** [GitHub Repository](https://github.com/Kogantikarthik/yottaflex-exam-scheduling)
+
 # Exam Scheduling and Room Allocation System
 
 A Python, SQLite, and Streamlit application for generating and reviewing exam schedules using synthetic academic data.
