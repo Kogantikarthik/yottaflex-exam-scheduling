@@ -49,7 +49,7 @@ The system models students, courses, enrollments, exams, exam requirements, room
 | `verify_exports.py` | Export verification utility |
 | `tests/` | Automated tests |
 | `exports/` | Generated export artifacts |
-| `ground_truth.csv`, `ground_truth.json` | Separate ground-truth scenarios, if included in the selected project version |
+| `ground_truth.csv`, `ground_truth.json` | Separate ground-truth scenarios for the five required negative cases. |
 | `validation_report.json` | Example validation output from a run |
 
 ## Run locally (Windows)
@@ -124,14 +124,11 @@ Exports are written to `exports/`. Review the generated manifest and checksums.
 
 ### 9. Check reproducibility
 
-Use a separate output path so the reference database is not overwritten:
+Run the reproducibility check:
 
-```cmd
-python generate_data.py --output reproducibility_test.db --seed 20261022
 python check_reproducibility.py
-```
 
-Confirm the exact arguments supported by the scripts with `python generate_data.py --help` and `python check_reproducibility.py --help` if your local version differs. Keep temporary comparison databases out of the submission.
+The script generates two temporary databases using seed 20261022, compares their contents, and cleans up the temporary files. A PASS result confirms that both generated databases match.
 
 ## Ground-truth / negative scenarios
 
