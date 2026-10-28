@@ -167,8 +167,7 @@ The Streamlit deployment should point to the intended database file and use the 
 
 If the app requires a non-default database path, configure `EXAM_SCHEDULING_DB` in the deployment environment. Ensure that the selected database file is included in the repository or created by a documented startup process. Do not assume that a local environment variable is automatically present in the cloud deployment.
 
-**New deployment URL:** add the verified URL here after deployment.
-
+**deployment URL:** https://yottaflex-exam-scheduling.streamlit.app/
 ## Limitations
 
 - Data is synthetic and intended for a coding challenge/demo.
